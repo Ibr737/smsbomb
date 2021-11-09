@@ -3,12 +3,12 @@ import threading
 import time
 import requests, random, datetime, sys, time, argparse, os
 def qw(_phone):
-    if _phone[0] == '+':
+    if _phone[0] == '+79659625252':
         _phone = _phone[1:]
-    if _phone[0] == '8':
-        _phone = '7'+_phone[1:]
-    if _phone[0] == '9':
-        _phone = '7'+_phone
+    if _phone[0] == '89659625252':
+        _phone = '79659625252'+_phone[1:]
+    if _phone[0] == '9659625252':
+        _phone = '79659625252'+_phone
 
     _name = ''
     for x in range(12):
